@@ -11,11 +11,15 @@ class sendal{
 int main () {
 	sendal karet;
 	
-	sendal.merk ="nipon";
-	sendal.harga = 10000;
+	karet.merk ="nipon";
+	karet.harga = 10000;
 	
-	cout<<"merk yang dipakai "<< (sendal.merk)<<endl;
-	cout<<"Harga modal nya "<< (sendal.harga)<<endl;
+	cout<<"merk yang dipakai "<< (karet.merk)<<endl;
+	cout<<"Harga modal nya "<< (karet.harga)<<endl;
 	
-	sendal.bahan("terbuat dari karet yang berkualitas dijamin tahan lama");
+	karet.bahan("terbuat dari karet yang berkualitas dijamin tahan lama");
 }
+void sendal::bahan(string karet){
+	cout<<"lebih tahan lama dari pada sendal yang lainnya"<<karet<<"harga ekonomis dijamin!"<<endl;
+}
+
